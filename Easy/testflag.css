@@ -1,0 +1,16 @@
+.flag {
+    height:100vh;
+    width: 100vw;
+}
+.red {
+    width: 100vw;
+    height: auto;
+    background-color: red;
+}
+img {
+    position: absolute;
+    top: 0;
+    padding-top: .625rem;
+    height: 53.4vh;
+    width: 56vw;
+}

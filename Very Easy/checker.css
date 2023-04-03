@@ -1,0 +1,21 @@
+.checkered-board {
+    display: grid;
+   grid-template-columns: repeat(8, 5rem);
+   grid-template-rows: repeat(8, 5rem);
+   justify-content: center;
+}
+
+.square {
+    height: 5rem;
+    width: 5rem;
+}
+
+.even, .even1 {
+    background-color: black;
+    border: .05em solid black;
+    
+}
+.odd, .odd2 {
+    background-color: white;
+    border: .05em solid black;
+}

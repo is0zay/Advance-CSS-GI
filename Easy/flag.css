@@ -1,0 +1,21 @@
+.flag-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: antiquewhite;
+}
+.stars-image {
+    position: fixed;
+}
+
+.stars {
+    height: 53.8vh;
+    width: 55vw;
+}
