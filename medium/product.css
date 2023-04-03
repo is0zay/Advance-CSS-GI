@@ -32,13 +32,12 @@ a::after:visited {
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.403);
 }
 .product-image {
-    height: 65%;
-    width: 60%;
+    height: 45%;
     margin: auto;
     box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.05);
 }
 .product-title {
-    font-size: 45%;
+    font-size: 65%;
 }
 .product-price {
     font-size: 45%;
