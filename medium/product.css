@@ -1,0 +1,42 @@
+
+.body {
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.products-container {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(2, 30rem);
+    gap: 2rem;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+a::after:visited {
+    color: black;
+}
+.product-item {
+    height: 100%;
+    width: 100%;
+}
+.product-image {
+    height: 45%;
+    width: 60%;
+    margin: auto;
+}
+.product-title {
+    font-size: 45%;
+}
+.product-price {
+    font-size: 45%;
+}
+.product-description {
+    font-size: .45rem;
+}
