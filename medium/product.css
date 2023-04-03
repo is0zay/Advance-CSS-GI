@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(4, 20%);
     grid-template-rows: repeat(2, 30rem);
-    gap: 2rem;
+    gap: .5rem;
     justify-content: center;
 }
 a {
@@ -23,13 +23,19 @@ a::after:visited {
     color: black;
 }
 .product-item {
-    height: 100%;
-    width: 100%;
+    line-height: 1;
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.05);
+    height: 20rem;
+    text-align: center;
+}
+.product-item:hover {
+    
 }
 .product-image {
     height: 45%;
     width: 60%;
     margin: auto;
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.05);
 }
 .product-title {
     font-size: 45%;
